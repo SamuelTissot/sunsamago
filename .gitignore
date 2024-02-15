@@ -2,3 +2,4 @@
 /dist
 /sunsamago
 *.csv
+http-client.private.env.json
