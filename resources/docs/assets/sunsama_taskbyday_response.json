@@ -1,0 +1,246 @@
+{
+    "data": {
+        "tasksByDay": [
+            {
+                "text": "Athletica @7am",
+                "completed": true,
+                "timeEstimate": null,
+                "duration": null,
+                "streamIds": [
+                    "655d163a913df45b68dd59b7"
+                ],
+                "scheduledTime": [
+                    {
+                        "startDate": "2024-02-13T11:45:00.000Z",
+                        "endDate": "2024-02-13T13:35:00.000Z",
+                        "isAllDay": false
+                    }
+                ],
+                "subtasks": [],
+                "actualTime": []
+            },
+            {
+                "text": "Daily planning",
+                "completed": true,
+                "timeEstimate": null,
+                "duration": null,
+                "streamIds": [
+                    "643e9937ceaa9e0e548d0164"
+                ],
+                "scheduledTime": [],
+                "subtasks": [],
+                "actualTime": [
+                    {
+                        "startDate": "2024-02-13T05:00:00.000Z",
+                        "endDate": null,
+                        "duration": 1500
+                    }
+                ]
+            },
+            {
+                "text": "test",
+                "completed": true,
+                "timeEstimate": null,
+                "duration": null,
+                "streamIds": [
+                    "655d163a913df45b68dd59b7"
+                ],
+                "scheduledTime": [
+                    {
+                        "startDate": "2024-02-13T23:00:00.000Z",
+                        "endDate": "2024-02-13T23:55:00.000Z",
+                        "isAllDay": false
+                    }
+                ],
+                "subtasks": [],
+                "actualTime": []
+            },
+            {
+                "text": "Elizabeth as Super User",
+                "completed": true,
+                "timeEstimate": 15,
+                "duration": null,
+                "streamIds": [
+                    "643e9937ceaa9e0e548d0164"
+                ],
+                "scheduledTime": [],
+                "subtasks": [],
+                "actualTime": [
+                    {
+                        "startDate": "2024-02-13T18:07:34.183Z",
+                        "endDate": "2024-02-13T18:23:33.859Z",
+                        "duration": null
+                    }
+                ]
+            },
+            {
+                "text": "Lightspeed Billing",
+                "completed": false,
+                "timeEstimate": 90,
+                "duration": null,
+                "streamIds": [
+                    "6580511840aede2137e07f91"
+                ],
+                "scheduledTime": [
+                    {
+                        "startDate": "2024-02-12T19:10:00.000Z",
+                        "endDate": "2024-02-12T20:20:00.000Z",
+                        "isAllDay": false
+                    },
+                    {
+                        "startDate": "2024-02-13T14:25:00.000Z",
+                        "endDate": "2024-02-13T16:55:00.000Z",
+                        "isAllDay": false
+                    }
+                ],
+                "subtasks": [],
+                "actualTime": [
+                    {
+                        "startDate": "2024-02-12T19:39:19.018Z",
+                        "endDate": "2024-02-12T20:16:13.343Z",
+                        "duration": null
+                    },
+                    {
+                        "startDate": "2024-02-12T21:00:46.970Z",
+                        "endDate": "2024-02-12T22:14:34.889Z",
+                        "duration": null
+                    },
+                    {
+                        "startDate": "2024-02-13T14:44:38.256Z",
+                        "endDate": "2024-02-13T16:14:03.746Z",
+                        "duration": null
+                    },
+                    {
+                        "startDate": "2024-02-13T18:06:56.340Z",
+                        "endDate": "2024-02-13T18:07:34.183Z",
+                        "duration": null
+                    },
+                    {
+                        "startDate": "2024-02-13T18:23:41.755Z",
+                        "endDate": null,
+                        "duration": null
+                    }
+                ]
+            },
+            {
+                "text": "Make Sure Dr. got my Blood Test",
+                "completed": false,
+                "timeEstimate": 15,
+                "duration": null,
+                "streamIds": [
+                    "655d163a913df45b68dd59b7"
+                ],
+                "scheduledTime": [
+                    {
+                        "startDate": "2023-12-13T16:45:00.000Z",
+                        "endDate": "2023-12-13T17:15:00.000Z",
+                        "isAllDay": false
+                    },
+                    {
+                        "startDate": "2023-12-14T17:25:00.000Z",
+                        "endDate": "2023-12-14T17:55:00.000Z",
+                        "isAllDay": false
+                    },
+                    {
+                        "startDate": "2023-12-15T17:25:00.000Z",
+                        "endDate": "2023-12-15T17:55:00.000Z",
+                        "isAllDay": false
+                    },
+                    {
+                        "startDate": "2023-12-22T16:48:00.000Z",
+                        "endDate": "2023-12-22T17:03:00.000Z",
+                        "isAllDay": false
+                    },
+                    {
+                        "startDate": "2024-02-13T18:05:00.000Z",
+                        "endDate": "2024-02-13T18:20:00.000Z",
+                        "isAllDay": false
+                    }
+                ],
+                "subtasks": [],
+                "actualTime": [
+                    {
+                        "startDate": "2024-02-07T15:04:30.190Z",
+                        "endDate": "2024-02-07T15:04:32.444Z",
+                        "duration": null
+                    }
+                ]
+            },
+            {
+                "text": "Twilio Link Shortening Implementation",
+                "completed": false,
+                "timeEstimate": 180,
+                "duration": null,
+                "streamIds": [
+                    "6421b956a3e3952174fb54d5"
+                ],
+                "scheduledTime": [
+                    {
+                        "startDate": "2024-02-13T18:30:00.000Z",
+                        "endDate": "2024-02-13T22:00:00.000Z",
+                        "isAllDay": false
+                    }
+                ],
+                "subtasks": [],
+                "actualTime": [
+                    {
+                        "startDate": "2024-02-12T16:34:35.138Z",
+                        "endDate": "2024-02-12T16:47:07.040Z",
+                        "duration": null
+                    }
+                ]
+            },
+            {
+                "text": "subtask test",
+                "completed": false,
+                "timeEstimate": 25,
+                "duration": null,
+                "streamIds": [
+                    "655d163a913df45b68dd59b7"
+                ],
+                "scheduledTime": [],
+                "subtasks": [
+                    {
+                        "title": "subtask one",
+                        "actualTime": [
+                            {
+                                "startDate": "2024-02-13T18:21:15.594Z",
+                                "endDate": null,
+                                "duration": 1800
+                            }
+                        ]
+                    },
+                    {
+                        "title": "subtask two",
+                        "actualTime": [
+                            {
+                                "startDate": "2024-02-13T18:21:17.721Z",
+                                "endDate": null,
+                                "duration": 2700
+                            }
+                        ]
+                    }
+                ],
+                "actualTime": []
+            },
+            {
+                "text": "RDS Datastream Investigation",
+                "completed": false,
+                "timeEstimate": 60,
+                "duration": null,
+                "streamIds": [
+                    "650034e019654547c3156707"
+                ],
+                "scheduledTime": [],
+                "subtasks": [],
+                "actualTime": [
+                    {
+                        "startDate": "2024-02-13T05:00:00.000Z",
+                        "endDate": null,
+                        "duration": 1500
+                    }
+                ]
+            }
+        ]
+    }
+}

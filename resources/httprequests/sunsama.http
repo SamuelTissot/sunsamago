@@ -1,0 +1,173 @@
+GRAPHQL https://api.sunsama.com/graphql
+cookie: {{cookies}}
+
+query getTasksByDay($day: String!, $timezone: String!, $userId: String!, $groupId: String!) {
+    tasksByDay(day: $day, timezone: $timezone, userId: $userId, groupId: $groupId) {
+        text
+        completed
+        timeEstimate
+        duration
+        streamIds
+        scheduledTime {
+            startDate
+            endDate
+            isAllDay
+        }
+        actualTime {
+            startDate
+            endDate
+            duration
+        }
+    }
+}
+
+{
+    "day": "2023-05-02",
+    "timezone": "America/Toronto",
+    "userId": "616f4fbcf60fe500096980e6",
+    "groupId": "616f4fddf60fe500096980e8"
+}
+
+###
+GRAPHQL https://api.sunsama.com/graphql
+cookie: {{cookies}}
+
+query getTasksByDay($day: String!, $timezone: String!, $userId: String!, $groupId: String!) {
+    tasksByDay(day: $day, timezone: $timezone, userId: $userId, groupId: $groupId) {
+        text
+        completed
+        timeEstimate
+        duration
+        streamIds
+        taskType
+        scheduledTime {
+            startDate
+            endDate
+            isAllDay
+        }
+        subtasks {
+            title
+            actualTime {
+                startDate
+                endDate
+                duration
+            }
+        }
+        actualTime {
+            startDate
+            endDate
+            duration
+        }
+    }
+}
+
+{
+    "day": "2024-02-13",
+    "timezone": "EST",
+    "userId": "616f4fbcf60fe500096980e6",
+    "groupId": "616f4fddf60fe500096980e8"
+}
+
+### Streams (channels) by group id
+GRAPHQL https://api.sunsama.com/graphql
+cookie: {{cookies}}
+
+query getStreamsByGroupId($groupId: String!) {
+    streamsByGroupId(groupId: $groupId) {
+       _id
+       streamName
+       description
+       category
+       personal
+       categoryStreamId
+    }
+}
+
+{
+    "groupId": "616f4fddf60fe500096980e8"
+}
+
+###
+GRAPHQL https://api.sunsama.com/graphql
+cookie: {{cookies}}
+
+{
+  __schema {
+    queryType {
+      fields {
+        name
+        description
+      }
+    }
+  }
+}
+
+
+### Streams Info
+GRAPHQL https://api.sunsama.com/graphql
+cookie: {{cookies}}
+
+{
+  __type(name: "Stream") {
+    name
+    fields {
+      name
+      type {
+        kind
+      }
+    }
+  }
+}
+
+
+### Tasks Info
+GRAPHQL https://api.sunsama.com/graphql
+cookie: {{cookies}}
+
+{
+  __type(name: "Task") {
+    name
+    fields {
+      name
+      type {
+        kind
+      }
+    }
+  }
+}
+
+
+### Subtask Info
+GRAPHQL https://api.sunsama.com/graphql
+cookie: {{cookies}}
+
+{
+  __type(name: "TaskSubtask") {
+    name
+    fields {
+      name
+      type {
+        kind
+      }
+    }
+  }
+}
+
+
+### scheduledTime Info
+GRAPHQL https://api.sunsama.com/graphql
+cookie: {{cookies}}
+
+{
+    __type(name: "TaskScheduledTime") {
+        name
+        fields {
+            name
+            type {
+                kind
+            }
+        }
+    }
+}
+
+
