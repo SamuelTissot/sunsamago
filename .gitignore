@@ -3,3 +3,5 @@
 /sunsamago
 *.csv
 http-client.private.env.json
+/.idea
+sunsamago.iml

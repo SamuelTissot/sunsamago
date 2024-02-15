@@ -7,7 +7,8 @@ a lot of things
 - more output format
 - test
 - code quality
-- ....
+- THIS README
+- ...
 
 ### Installation
 - clone the repo
