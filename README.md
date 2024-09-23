@@ -21,7 +21,7 @@ a lot of things
 set your environment variable `SUNSAMA_SESSION_ID` to your sunsama session id.
 see [here](#how-to-get-your-sunsama-session-id) for how to get the session id
 
-```shell
+```shell 
 sunsamago timesheet --start "2024-02-15" --end "2024-02-15"  --round 15 --durationFormatter hour
 ```
 
